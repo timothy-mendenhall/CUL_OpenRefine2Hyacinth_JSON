@@ -1,0 +1,339 @@
+[
+ {
+    "op": "core/column-addition",
+    "description": "Create column genre-1:genre_term.authority at index 174 based on column genre-1:genre_term.uri using expression grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/authorities\\/genreForms\\/.+/,'lcgft')",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": true,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "genre-1:genre_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "genre-1:genre_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "genre-1:genre_term.authority",
+    "columnInsertIndex": 174,
+    "baseColumnName": "genre-1:genre_term.uri",
+    "expression": "grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/authorities\\/genreForms\\/.+/,'lcgft')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column genre-1:genre_term.authority using expression grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/authorities\\/subjects\\/.+/,'lcsh')",
+    "engineConfig": {
+      "mode": "row-based"
+    },
+    "columnName": "genre-1:genre_term.authority",
+    "expression": "grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/authorities\\/subjects\\/.+/,'lcsh')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column genre-1:genre_term.authority using expression grel:value.replace(/http\\:\\/\\/vocab\\.getty\\.edu\\/page\\/aat\\/.+/,'aat')",
+    "engineConfig": {
+      "mode": "row-based"
+    },
+    "columnName": "genre-1:genre_term.authority",
+    "expression": "grel:value.replace(/http\\:\\/\\/vocab\\.getty\\.edu\\/page\\/aat\\/.+/,'aat')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+{
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column genre-1:genre_term.authority using expression grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/vocabulary\\/graphicMaterials\\/.+/,'gmgpc')",
+    "engineConfig": {
+      "mode": "row-based"
+    },
+    "columnName": "genre-1:genre_term.authority",
+    "expression": "grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/vocabulary\\/graphicMaterials\\/.+/,'gmgpc')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column genre-1:genre_term.value",
+    "columnName": "genre-1:genre_term.value",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column genre-1:genre_term.uri",
+    "columnName": "genre-1:genre_term.uri",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column genre-1:genre_term.authority",
+    "columnName": "genre-1:genre_term.authority",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+ {
+    "op": "core/column-split",
+    "description": "Split column genre-1:genre_term.value by separator",
+    "engineConfig": {
+      "mode": "row-based"
+    },
+    "columnName": "genre-1:genre_term.value",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+{
+    "op": "core/column-split",
+    "description": "Split column genre-1:genre_term.authority by separator",
+    "engineConfig": {
+      "mode": "row-based"
+    },
+    "columnName": "genre-1:genre_term.authority",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+{
+    "op": "core/column-split",
+    "description": "Split column genre-1:genre_term.uri by separator",
+    "engineConfig": {
+      "mode": "row-based"
+    },
+    "columnName": "genre-1:genre_term.uri",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 1 to genre-1:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 1",
+    "newColumnName": "genre-1:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 2 to genre-2:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 2",
+    "newColumnName": "genre-2:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 3 to genre-3:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 3",
+    "newColumnName": "genre-3:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 4 to genre-4:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 4",
+    "newColumnName": "genre-4:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 5 to genre-5:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 5",
+    "newColumnName": "genre-5:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 6 to genre-6:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 6",
+    "newColumnName": "genre-6:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 7 to genre-7:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 7",
+    "newColumnName": "genre-7:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 8 to genre-8:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 8",
+    "newColumnName": "genre-8:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 9 to genre-9:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 9",
+    "newColumnName": "genre-9:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.value 10 to genre-10:genre_term.value",
+    "oldColumnName": "genre-1:genre_term.value 10",
+    "newColumnName": "genre-10:genre_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 1 to genre-1:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 1",
+    "newColumnName": "genre-1:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 2 to genre-2:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 2",
+    "newColumnName": "genre-2:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 3 to genre-3:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 3",
+    "newColumnName": "genre-3:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 4 to genre-4:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 4",
+    "newColumnName": "genre-4:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 5 to genre-5:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 5",
+    "newColumnName": "genre-5:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 6 to genre-6:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 6",
+    "newColumnName": "genre-6:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 7 to genre-7:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 7",
+    "newColumnName": "genre-7:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 8 to genre-8:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 8",
+    "newColumnName": "genre-8:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 9 to genre-9:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 9",
+    "newColumnName": "genre-9:genre_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.authority 10 to genre-10:genre_term.authority",
+    "oldColumnName": "genre-1:genre_term.authority 10",
+    "newColumnName": "genre-10:genre_term.authority"
+  },
+{
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 1 to genre-1:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 1",
+    "newColumnName": "genre-1:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 2 to genre-2:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 2",
+    "newColumnName": "genre-2:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 3 to genre-3:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 3",
+    "newColumnName": "genre-3:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 4 to genre-4:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 4",
+    "newColumnName": "genre-4:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 5 to genre-5:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 5",
+    "newColumnName": "genre-5:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 6 to genre-6:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 6",
+    "newColumnName": "genre-6:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 7 to genre-7:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 7",
+    "newColumnName": "genre-7:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 8 to genre-8:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 8",
+    "newColumnName": "genre-8:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 9 to genre-9:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 9",
+    "newColumnName": "genre-9:genre_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column genre-1:genre_term.uri 10 to genre-10:genre_term.uri",
+    "oldColumnName": "genre-1:genre_term.uri 10",
+    "newColumnName": "genre-10:genre_term.uri"
+  }
+]

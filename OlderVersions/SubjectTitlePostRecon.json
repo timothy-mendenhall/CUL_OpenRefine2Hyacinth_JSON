@@ -1,0 +1,883 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_title-1:subject_title_term.uri at index 158 based on column subject_title-1:subject_title_term.value using expression grel:\"http://id.loc.gov/authorities/names/\" + cell.recon.match.id",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": true,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_title-1:subject_title_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_title-1:subject_title_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_title-1:subject_title_term.value: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "subject_title-1:subject_title_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_title-1:subject_title_term.uri",
+    "columnInsertIndex": 158,
+    "baseColumnName": "subject_title-1:subject_title_term.value",
+    "expression": "grel:\"http://id.loc.gov/authorities/names/\" + cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": true,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_title-1:subject_title_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_title-1:subject_title_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_title-1:subject_title_term.value: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "subject_title-1:subject_title_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [
+          ""
+        ],
+        "to": "NONE"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_title-1:subject_title_term.authority at index 159 based on column subject_title-1:subject_title_term.uri using expression grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/authorities\\/names\\/.+/,\"naf\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": true,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_title-1:subject_title_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_title-1:subject_title_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_title-1:subject_title_term.authority",
+    "columnInsertIndex": 159,
+    "baseColumnName": "subject_title-1:subject_title_term.uri",
+    "expression": "grel:value.replace(/http\\:\\/\\/id\\.loc\\.gov\\/authorities\\/names\\/.+/,\"naf\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon-discard-judgments",
+    "description": "Discard recon judgments and clear recon data for cells in column subject_title-1:subject_title_term.value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.value",
+    "clearData": true
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column subject_title-1:subject_title_term.value",
+    "columnName": "subject_title-1:subject_title_term.value",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column subject_title-1:subject_title_term.uri",
+    "columnName": "subject_title-1:subject_title_term.uri",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column subject_title-1:subject_title_term.authority",
+    "columnName": "subject_title-1:subject_title_term.authority",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column subject_title-1:subject_title_term.value by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.value",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column subject_title-1:subject_title_term.uri by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column subject_title-1:subject_title_term.authority by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 2",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 3",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 3",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 4",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 4",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 5",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 5",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 6",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 6",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 7",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 7",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 8",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 8",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 9",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 9",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+   {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.authority 10",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.authority 10",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 1",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 1",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 2",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 2",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 3",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 3",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 4",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 4",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 5",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 5",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 6",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 6",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 7",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 7",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 8",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 8",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 9",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 9",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_title-1:subject_title_term.uri 10",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.uri 10",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "NONE"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 1 to subject_title-1:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 1",
+    "newColumnName": "subject_title-1:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 2 to subject_title-2:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 2",
+    "newColumnName": "subject_title-2:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 3 to subject_title-3:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 3",
+    "newColumnName": "subject_title-3:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 4 to subject_title-4:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 4",
+    "newColumnName": "subject_title-4:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 5 to subject_title-5:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 5",
+    "newColumnName": "subject_title-5:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 6 to subject_title-6:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 6",
+    "newColumnName": "subject_title-6:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 7 to subject_title-7:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 7",
+    "newColumnName": "subject_title-7:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 8 to subject_title-8:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 8",
+    "newColumnName": "subject_title-8:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 9 to subject_title-9:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 9",
+    "newColumnName": "subject_title-9:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.value 10 to subject_title-10:subject_title_term.value",
+    "oldColumnName": "subject_title-1:subject_title_term.value 10",
+    "newColumnName": "subject_title-10:subject_title_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 1 to subject_title-1:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 1",
+    "newColumnName": "subject_title-1:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 2 to subject_title-2:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 2",
+    "newColumnName": "subject_title-2:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 3 to subject_title-3:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 3",
+    "newColumnName": "subject_title-3:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 4 to subject_title-4:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 4",
+    "newColumnName": "subject_title-4:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 5 to subject_title-5:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 5",
+    "newColumnName": "subject_title-5:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 6 to subject_title-6:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 6",
+    "newColumnName": "subject_title-6:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 7 to subject_title-7:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 7",
+    "newColumnName": "subject_title-7:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 8 to subject_title-8:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 8",
+    "newColumnName": "subject_title-8:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 9 to subject_title-9:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 9",
+    "newColumnName": "subject_title-9:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.uri 10 to subject_title-10:subject_title_term.uri",
+    "oldColumnName": "subject_title-1:subject_title_term.uri 10",
+    "newColumnName": "subject_title-10:subject_title_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 1 to subject_title-1:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 1",
+    "newColumnName": "subject_title-1:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 2 to subject_title-2:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 2",
+    "newColumnName": "subject_title-2:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 3 to subject_title-3:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 3",
+    "newColumnName": "subject_title-3:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 4 to subject_title-4:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 4",
+    "newColumnName": "subject_title-4:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 5 to subject_title-5:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 5",
+    "newColumnName": "subject_title-5:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 6 to subject_title-6:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 6",
+    "newColumnName": "subject_title-6:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 7 to subject_title-7:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 7",
+    "newColumnName": "subject_title-7:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 8 to subject_title-8:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 8",
+    "newColumnName": "subject_title-8:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 9 to subject_title-9:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 9",
+    "newColumnName": "subject_title-9:subject_title_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subject_title-1:subject_title_term.authority 10 to subject_title-10:subject_title_term.authority",
+    "oldColumnName": "subject_title-1:subject_title_term.authority 10",
+    "newColumnName": "subject_title-10:subject_title_term.authority"
+  }
+]

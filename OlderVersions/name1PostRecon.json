@@ -1,0 +1,342 @@
+[ 
+   {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column name-1:name_term.value",
+    "columnName": "name-1:name_term.value",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+   {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column name-1:name_term.authority",
+    "columnName": "name-1:name_term.authority",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column name-1:name_term.uri",
+    "columnName": "name-1:name_term.uri",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column name-1:name_term.name_type",
+    "columnName": "name-1:name_term.name_type",
+    "keyColumnName": "_identifiers-1",
+    "separator": ";"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column name-1:name_term.value by separator",
+    "engineConfig": {
+      "mode": "row-based",
+          },
+    "columnName": "name-1:name_term.value",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column name-1:name_term.authority by separator",
+    "engineConfig": {
+      "mode": "row-based",
+          },
+    "columnName": "name-1:name_term.authority",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column name-1:name_term.name_type by separator",
+    "engineConfig": {
+      "mode": "row-based",
+          },
+    "columnName": "name-1:name_term.name_type",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column name-1:name_term.uri by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "_digital_object_type.string_key",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "_digital_object_type.string_key"
+        }
+      ]
+    },
+    "columnName": "name-1:name_term.uri",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ";",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 1 to name-1:name_term.value",
+    "oldColumnName": "name-1:name_term.value 1",
+    "newColumnName": "name-1:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 2 to name-2:name_term.value",
+    "oldColumnName": "name-1:name_term.value 2",
+    "newColumnName": "name-2:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 3 to name-3:name_term.value",
+    "oldColumnName": "name-1:name_term.value 3",
+    "newColumnName": "name-3:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 4 to name-4:name_term.value",
+    "oldColumnName": "name-1:name_term.value 4",
+    "newColumnName": "name-4:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 5 to name-5:name_term.value",
+    "oldColumnName": "name-1:name_term.value 5",
+    "newColumnName": "name-5:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 6 to name-3:name_term.value",
+    "oldColumnName": "name-1:name_term.value 6",
+    "newColumnName": "name-6:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 7 to name-7:name_term.value",
+    "oldColumnName": "name-1:name_term.value 7",
+    "newColumnName": "name-7:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 8 to name-8:name_term.value",
+    "oldColumnName": "name-1:name_term.value 8",
+    "newColumnName": "name-8:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 9 to name-9:name_term.value",
+    "oldColumnName": "name-1:name_term.value 9",
+    "newColumnName": "name-9:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.value 10 to name-10:name_term.value",
+    "oldColumnName": "name-1:name_term.value 10",
+    "newColumnName": "name-10:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 1 to name-1:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 1",
+    "newColumnName": "name-1:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 2 to name-2:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 2",
+    "newColumnName": "name-2:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 3 to name-3:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 3",
+    "newColumnName": "name-3:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 4 to name-4:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 4",
+    "newColumnName": "name-4:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 5 to name-5:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 5",
+    "newColumnName": "name-5:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 6 to name-6:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 6",
+    "newColumnName": "name-6:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 7 to name-7:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 7",
+    "newColumnName": "name-7:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 8 to name-8:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 8",
+    "newColumnName": "name-8:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 9 to name-9:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 9",
+    "newColumnName": "name-9:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.authority 10 to name-10:name_term.authority",
+    "oldColumnName": "name-1:name_term.authority 10",
+    "newColumnName": "name-10:name_term.authority"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 1 to name-1:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 1",
+    "newColumnName": "name-1:name_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 2 to name-2:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 2",
+    "newColumnName": "name-2:name_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 3 to name-3:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 3",
+    "newColumnName": "name-3:name_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 4 to name-4:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 4",
+    "newColumnName": "name-4:name_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 5 to name-5:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 5",
+    "newColumnName": "name-5:name_term.uri"
+  },{
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 6 to name-6:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 6",
+    "newColumnName": "name-6:name_term.uri"
+  },{
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 7 to name-7:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 7",
+    "newColumnName": "name-7:name_term.uri"
+  },{
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 8 to name-8:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 8",
+    "newColumnName": "name-8:name_term.uri"
+  },{
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 9 to name-9:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 9",
+    "newColumnName": "name-9:name_term.uri"
+  },{
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.uri 10 to name-10:name_term.uri",
+    "oldColumnName": "name-1:name_term.uri 10",
+    "newColumnName": "name-10:name_term.uri"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 1 to name-1:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 1",
+    "newColumnName": "name-1:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 2 to name-2:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 2",
+    "newColumnName": "name-2:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 3 to name-3:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 3",
+    "newColumnName": "name-3:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 4 to name-4:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 4",
+    "newColumnName": "name-4:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 5 to name-5:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 5",
+    "newColumnName": "name-5:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 6 to name-6:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 6",
+    "newColumnName": "name-6:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 7 to name-7:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 7",
+    "newColumnName": "name-7:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 8 to name-8:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 8",
+    "newColumnName": "name-8:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 9 to name-9:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 9",
+    "newColumnName": "name-9:name_term.name_type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_term.name_type 10 to name-10:name_term.name_type",
+    "oldColumnName": "name-1:name_term.name_type 10",
+    "newColumnName": "name-10:name_term.name_type"
+  }
+]

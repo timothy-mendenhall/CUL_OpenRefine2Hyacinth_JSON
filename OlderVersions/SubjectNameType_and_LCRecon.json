@@ -1,0 +1,242 @@
+[
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column subject_name-1:subject_name_term.value",
+    "columnName": "subject_name-1:subject_name_term.value",
+    "keyColumnName": "_identifiers-1",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_name-1:subject_name_term.name_type at index 130 based on column subject_name-1:subject_name_term.value using expression grel:\"personal\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "name": "subject_name-1:subject_name_term.value",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "query": "^([a-zA-Z\\s])+,",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_name-1:subject_name_term.name_type",
+    "columnInsertIndex": 130,
+    "baseColumnName": "subject_name-1:subject_name_term.value",
+    "expression": "grel:\"personal\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_name-1:subject_name_term.name_type",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "name": "subject_name-1:subject_name_term.value",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "query": "^([a-zA-Z\\s])+,",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": true,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "subject_name-1:subject_name_term.name_type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [
+          ""
+        ],
+        "to": "corporate"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_name-1:subject_name_term.value to type /people/person",
+    "columnName": "subject_name-1:subject_name_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/people/person",
+        "name": "Person"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.name_type",
+          "expression": "value",
+          "columnName": "subject_name-1:subject_name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "personal",
+                "l": "personal"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_name-1:subject_name_term.value to type /organization/organization",
+    "columnName": "subject_name-1:subject_name_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/organization/organization",
+        "name": "Corporate Name"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.name_type",
+          "expression": "value",
+          "columnName": "subject_name-1:subject_name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "corporate",
+                "l": "corporate"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  }
+]
