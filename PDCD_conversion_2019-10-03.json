@@ -1,0 +1,705 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Repository to location-1:location_term.value",
+    "oldColumnName": "Repository",
+    "newColumnName": "location-1:location_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Collection Name to collection-1:collection_term.value",
+    "oldColumnName": "Collection Name",
+    "newColumnName": "collection-1:collection_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Barcode to internal_note-1:internal_note_value",
+    "oldColumnName": "Barcode",
+    "newColumnName": "internal_note-1:internal_note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-1:internal_note_value using expression grel:value.replace(/(.+)/,\"Barcode: $1\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-1:internal_note_value",
+    "expression": "grel:value.replace(/(.+)/,\"Barcode: $1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Title to title-1:title_sort_portion",
+    "oldColumnName": "Title",
+    "newColumnName": "title-1:title_sort_portion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Original Format to note-1:note_value",
+    "oldColumnName": "Original Format",
+    "newColumnName": "note-1:note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-1:note_value using expression grel:value.replace(/(.+)/,\"Original format: $1\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "note-1:note_value",
+    "expression": "grel:value.replace(/(.+)/,\"Original format: $1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Date to date_created_textual-1:date_created_textual_value",
+    "oldColumnName": "Date",
+    "newColumnName": "date_created_textual-1:date_created_textual_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CLIO ID to clio_identifier-1:clio_identifier_value",
+    "oldColumnName": "CLIO ID",
+    "newColumnName": "clio_identifier-1:clio_identifier_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Physical Object Sequence No to internal_note-2:internal_note_value",
+    "oldColumnName": "Physical Object Sequence No",
+    "newColumnName": "internal_note-2:internal_note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-2:internal_note_value using expression grel:\"Physical object sequence number: \" + value + \" ; Number of physical objects in title: \" + cells[\"No. of Physical Objects in Title\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-2:internal_note_value",
+    "expression": "grel:\"Physical object sequence number: \" + value + \" ; Number of physical objects in title: \" + cells[\"No. of Physical Objects in Title\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column No. of Physical Objects in Title",
+    "columnName": "No. of Physical Objects in Title"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Identifer (Intellectual item filename) to _identifiers-1",
+    "oldColumnName": "Identifer (Intellectual item filename)",
+    "newColumnName": "_identifiers-1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Master assets directory path to _import_file.import_path",
+    "oldColumnName": "Master assets directory path",
+    "newColumnName": "_import_file.import_path"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _import_file.import_type at index 11 based on column _import_file.import_path using expression grel:value.replace(/.+/,\"external\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_import_file.import_type",
+    "columnInsertIndex": 11,
+    "baseColumnName": "_import_file.import_path",
+    "expression": "grel:value.replace(/.+/,\"external\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Service (Mezzanine) assets directory path to _import_file.service_copy_import_path",
+    "oldColumnName": "Service (Mezzanine) assets directory path",
+    "newColumnName": "_import_file.service_copy_import_path"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _import_file.service_copy_import_type at index 14 based on column _import_file.service_copy_import_path using expression grel:value.replace(/.+/,\"external\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_import_file.service_copy_import_type",
+    "columnInsertIndex": 14,
+    "baseColumnName": "_import_file.service_copy_import_path",
+    "expression": "grel:value.replace(/.+/,\"external\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Access (Streaming) assets directory path to _import_file.access_copy_import_path",
+    "oldColumnName": "Access (Streaming) assets directory path",
+    "newColumnName": "_import_file.access_copy_import_path"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Notes on quality and contents to internal_note-3:internal_note_value",
+    "oldColumnName": "Notes on quality and contents",
+    "newColumnName": "internal_note-3:internal_note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-3:internal_note_value using expression grel:value.replace(/(.+)/,\"Notes on quality and contents: $1\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-3:internal_note_value",
+    "expression": "grel:value.replace(/(.+)/,\"Notes on quality and contents: $1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Internal notes to internal_note-4:internal_note_value",
+    "oldColumnName": "Internal notes",
+    "newColumnName": "internal_note-4:internal_note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Duration to extent-1:extent_value",
+    "oldColumnName": "Duration",
+    "newColumnName": "extent-1:extent_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Year digitized to internal_note-5:internal_note_value",
+    "oldColumnName": "Year digitized",
+    "newColumnName": "internal_note-5:internal_note_value"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-5:internal_note_value using expression grel:value.replace(/(.+)/,\"Year digitized: $1\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-5:internal_note_value",
+    "expression": "grel:value.replace(/(.+)/,\"Year digitized: $1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Hyacinth Project to _project.string_key",
+    "oldColumnName": "Hyacinth Project",
+    "newColumnName": "_project.string_key"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column _project.string_key using expression grel:value.replace(/.+/,\"TBM\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_project.string_key",
+    "expression": "grel:value.replace(/.+/,\"TBM\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Restrictions on Access to restriction_on_access-1:restriction_on_access_value",
+    "oldColumnName": "Restrictions on Access",
+    "newColumnName": "restriction_on_access-1:restriction_on_access_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Use and Reproduction Value to use_and_reproduction-1:use_and_reproduction_term.value",
+    "oldColumnName": "Use and Reproduction Value",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Repository to location-1:location_term.value",
+    "oldColumnName": "Repository",
+    "newColumnName": "location-1:location_term.value"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column location-1:location_sublocation at index 2 based on column location-1:location_term.uri using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "location-1:location_sublocation",
+    "columnInsertIndex": 2,
+    "baseColumnName": "location-1:location_term.uri",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column location-1:location_shelf_location-1:location_shelf_location_box_number at index 3 based on column location-1:location_sublocation using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "location-1:location_shelf_location-1:location_shelf_location_box_number",
+    "columnInsertIndex": 3,
+    "baseColumnName": "location-1:location_sublocation",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column location-1:location_shelf_location-1:location_shelf_location_folder_number at index 4 based on column location-1:location_shelf_location-1:location_shelf_location_box_number using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "location-1:location_shelf_location-1:location_shelf_location_folder_number",
+    "columnInsertIndex": 4,
+    "baseColumnName": "location-1:location_shelf_location-1:location_shelf_location_box_number",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column location-1:location_shelf_location-1:location_shelf_location_item_number at index 5 based on column location-1:location_shelf_location-1:location_shelf_location_folder_number using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "location-1:location_shelf_location-1:location_shelf_location_item_number",
+    "columnInsertIndex": 5,
+    "baseColumnName": "location-1:location_shelf_location-1:location_shelf_location_folder_number",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column location-1:location_shelf_location-1:location_shelf_location_free_text at index 6 based on column location-1:location_shelf_location-1:location_shelf_location_item_number using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "location-1:location_shelf_location-1:location_shelf_location_free_text",
+    "columnInsertIndex": 6,
+    "baseColumnName": "location-1:location_shelf_location-1:location_shelf_location_item_number",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_term.uri at index 8 based on column collection-1:collection_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_term.uri",
+    "columnInsertIndex": 8,
+    "baseColumnName": "collection-1:collection_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title at index 9 based on column collection-1:collection_term.uri using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+    "columnInsertIndex": 9,
+    "baseColumnName": "collection-1:collection_term.uri",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type at index 10 based on column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type",
+    "columnInsertIndex": 10,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level at index 11 based on column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level",
+    "columnInsertIndex": 11,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column digital_origin-1:digital_origin_value at index 12 based on column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level using expression grel:\"reformatted digital\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "digital_origin-1:digital_origin_value",
+    "columnInsertIndex": 12,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level",
+    "expression": "grel:\"reformatted digital\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _digital_object_type.string_key at index 12 based on column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level using expression grel:\"asset\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_digital_object_type.string_key",
+    "columnInsertIndex": 12,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level",
+    "expression": "grel:\"asset\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _parent_digital_objects-1.identifier at index 21 based on column _identifiers-1 using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_parent_digital_objects-1.identifier",
+    "columnInsertIndex": 21,
+    "baseColumnName": "_identifiers-1",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column title-1:title_non_sort_portion at index 16 based on column title-1:title_sort_portion using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "title-1:title_non_sort_portion",
+    "columnInsertIndex": 16,
+    "baseColumnName": "title-1:title_sort_portion",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column alternative_title-1:alternative_title_value at index 17 based on column title-1:title_non_sort_portion using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "alternative_title-1:alternative_title_value",
+    "columnInsertIndex": 17,
+    "baseColumnName": "title-1:title_non_sort_portion",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_term.value at index 18 based on column alternative_title-1:alternative_title_value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_term.value",
+    "columnInsertIndex": 18,
+    "baseColumnName": "alternative_title-1:alternative_title_value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_usage_primary at index 19 based on column name-1:name_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_usage_primary",
+    "columnInsertIndex": 19,
+    "baseColumnName": "name-1:name_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-1:name_role_term.value at index 20 based on column name-1:name_usage_primary using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-1:name_role_term.value",
+    "columnInsertIndex": 20,
+    "baseColumnName": "name-1:name_usage_primary",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_topic-1:subject_topic_term.value at index 21 based on column name-1:name_role-1:name_role_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_topic-1:subject_topic_term.value",
+    "columnInsertIndex": 21,
+    "baseColumnName": "name-1:name_role-1:name_role_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_name-1:subject_name_term.value at index 22 based on column subject_topic-1:subject_topic_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_name-1:subject_name_term.value",
+    "columnInsertIndex": 22,
+    "baseColumnName": "subject_topic-1:subject_topic_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_geographic-1:subject_geographic_term.value at index 23 based on column subject_name-1:subject_name_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_geographic-1:subject_geographic_term.value",
+    "columnInsertIndex": 23,
+    "baseColumnName": "subject_name-1:subject_name_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_title-1:subject_title_term.value at index 24 based on column subject_geographic-1:subject_geographic_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_title-1:subject_title_term.value",
+    "columnInsertIndex": 24,
+    "baseColumnName": "subject_geographic-1:subject_geographic_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column type_of_resource-1:type_of_resource_value at index 25 based on column subject_title-1:subject_title_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "type_of_resource-1:type_of_resource_value",
+    "columnInsertIndex": 25,
+    "baseColumnName": "subject_title-1:subject_title_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column form-1:form_term.value at index 26 based on column type_of_resource-1:type_of_resource_value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "form-1:form_term.value",
+    "columnInsertIndex": 26,
+    "baseColumnName": "type_of_resource-1:type_of_resource_value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column genre-1:genre_term.value at index 27 based on column form-1:form_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "genre-1:genre_term.value",
+    "columnInsertIndex": 27,
+    "baseColumnName": "form-1:form_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column language-1:language_term.value at index 28 based on column genre-1:genre_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "language-1:language_term.value",
+    "columnInsertIndex": 28,
+    "baseColumnName": "genre-1:genre_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column place_of_origin-1:place_of_origin_value at index 29 based on column language-1:language_term.value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "place_of_origin-1:place_of_origin_value",
+    "columnInsertIndex": 29,
+    "baseColumnName": "language-1:language_term.value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column publisher-1:publisher_value at index 30 based on column place_of_origin-1:place_of_origin_value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "publisher-1:publisher_value",
+    "columnInsertIndex": 30,
+    "baseColumnName": "place_of_origin-1:place_of_origin_value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column note-1:note_value to position 32",
+    "columnName": "note-1:note_value",
+    "index": 32
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_start_value at index 32 based on column date_created_textual-1:date_created_textual_value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_start_value",
+    "columnInsertIndex": 32,
+    "baseColumnName": "date_created_textual-1:date_created_textual_value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:value.replace(/^(\\d\\/)/,\"0$1\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created-1:date_created_start_value",
+    "expression": "grel:value.replace(/^(\\d\\/)/,\"0$1\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:value.replace(/([\\/\\-])(\\d\\/)/,\"$10$2\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created-1:date_created_start_value",
+    "expression": "grel:value.replace(/([\\/\\-])(\\d\\/)/,\"$10$2\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:value.replace(\"-\",\";\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created-1:date_created_start_value",
+    "expression": "grel:value.replace(\"-\",\";\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:value.replace(/(\\d{2})\\/(\\d{2})\\/(\\d{4})/,\"$3-$1-$2\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created-1:date_created_start_value",
+    "expression": "grel:value.replace(/(\\d{2})\\/(\\d{2})\\/(\\d{4})/,\"$3-$1-$2\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_end_value at index 33 based on column date_created-1:date_created_start_value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_end_value",
+    "columnInsertIndex": 33,
+    "baseColumnName": "date_created-1:date_created_start_value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_type at index 34 based on column date_created-1:date_created_end_value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_type",
+    "columnInsertIndex": 34,
+    "baseColumnName": "date_created-1:date_created_end_value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_key_date at index 35 based on column date_created-1:date_created_type using expression grel:\"TRUE\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_key_date",
+    "columnInsertIndex": 35,
+    "baseColumnName": "date_created-1:date_created_type",
+    "expression": "grel:\"TRUE\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column extent-2:extent_value at index 53 based on column extent-1:extent_value using expression grel:toNumber(value.substring(0,2))*60 + (toNumber(value.toDate().datePart('min')) + round((toNumber(value.toDate().datePart('s')))*0.01666666667)) + ' minutes'",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "extent-2:extent_value",
+    "columnInsertIndex": 53,
+    "baseColumnName": "extent-1:extent_value",
+    "expression": "grel:toNumber(value.substring(0,2))*60 + (toNumber(value.toDate().datePart('min')) + round((toNumber(value.toDate().datePart('s')))*0.01666666667)) + ' minutes'",
+    "onError": "set-to-blank"
+  } 
+]

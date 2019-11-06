@@ -1,0 +1,309 @@
+[
+  {
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _project.string_key",
+  "columnName": "_project.string_key",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _digital_object_type.string_key",
+  "columnName": "_digital_object_type.string_key",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _identifiers-1",
+  "columnName": "_identifiers-1",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _parent_digital_objects-1.identifier",
+  "columnName": "_parent_digital_objects-1.identifier",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _import_file.import_path",
+  "columnName": "_import_file.import_path",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _import_file.import_type",
+  "columnName": "_import_file.import_type",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Service (Mezzanine) assets filenames",
+  "columnName": "Service (Mezzanine) assets filenames",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _import_file.service_copy_import_path",
+  "columnName": "_import_file.service_copy_import_path",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _import_file.service_copy_import_type",
+  "columnName": "_import_file.service_copy_import_type",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column Access (Streaming) assets filenames",
+  "columnName": "Access (Streaming) assets filenames",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column _import_file.access_copy_import_path",
+  "columnName": "_import_file.access_copy_import_path",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column location-1:location_shelf_location-1:location_shelf_location_box_number",
+  "columnName": "location-1:location_shelf_location-1:location_shelf_location_box_number",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column location-1:location_shelf_location-1:location_shelf_location_free_text",
+  "columnName": "Split multi-valued cells in column location-1:location_shelf_location-1:location_shelf_location_free_text",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column note-1:note_value",
+  "columnName": "note-1:note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column title-1:title_sort_portion",
+  "columnName": "title-1:title_sort_portion",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column FindingAidPart",
+  "columnName": "FindingAidPart",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column abstract-1:abstract_value",
+  "columnName": "abstract-1:abstract_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column extent-1:extent_value",
+  "columnName": "extent-1:extent_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column note-1:note_type",
+  "columnName": "note-1:note_type",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column note-2:note_value",
+  "columnName": "note-2:note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column note-3:note_value",
+  "columnName": "note-3:note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column note-4:note_value",
+  "columnName": "note-4:note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-1:internal_note_value",
+  "columnName": "internal_note-1:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-2:internal_note_value",
+  "columnName": "internal_note-2:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-3:internal_note_value",
+  "columnName": "internal_note-3:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-4:internal_note_value",
+  "columnName": "internal_note-4:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-5:internal_note_value",
+  "columnName": "internal_note-5:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-6:internal_note_value",
+  "columnName": "internal_note-6:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-7:internal_note_value",
+  "columnName": "internal_note-7:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-8:internal_note_value",
+  "columnName": "internal_note-8:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-9:internal_note_value",
+  "columnName": "internal_note-9:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column internal_note-10:internal_note_value",
+  "columnName": "internal_note-10:internal_note_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column restriction_on_access-1:restriction_on_access_value",
+  "columnName": "restriction_on_access-1:restriction_on_access_value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+},
+{
+  "op": "core/multivalued-cell-split",
+  "description": "Split multi-valued cells in column use_and_reproduction-1:use_and_reproduction_term.value",
+  "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+  "keyColumnName": "Master assets filenames",
+  "mode": "separator",
+  "separator": ";",
+  "regex": false
+}
+]

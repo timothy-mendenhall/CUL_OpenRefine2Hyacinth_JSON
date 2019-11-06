@@ -1,0 +1,6969 @@
+[
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column abstract-1:abstract_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "abstract-1:abstract_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column alternative_title-1:alternative_title_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "alternative_title-1:alternative_title_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column collection-1:collection_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "collection-1:collection_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column coordinates-1:coordinates_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "coordinates-1:coordinates_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column copyright_note-1:copyright_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "copyright_note-1:copyright_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column culture-1:culture_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "culture-1:culture_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column extent-1:extent_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "extent-1:extent_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column form-1:form_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "form-1:form_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column frequency-1:frequency_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "frequency-1:frequency_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column genre-1:genre_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "genre-1:genre_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-1:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-1:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-2:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-2:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-3:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-3:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-4:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-4:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-5:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-5:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-6:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-6:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-7:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-7:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-8:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-8:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-9:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-9:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column internal_note-10:internal_note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "internal_note-10:internal_note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column language-1:language_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "language-1:language_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column location-1:location_shelf_location-1:location_shelf_location_free_text using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "location-1:location_shelf_location-1:location_shelf_location_free_text",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column location-1:location_sublocation using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "location-1:location_sublocation",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column location-1:location_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "location-1:location_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column name-1:name_role-1:name_role_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "name-1:name_role-1:name_role_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column name-1:name_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "name-1:name_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-1:note_type using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-1:note_type",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-1:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-1:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-2:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-2:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-3:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-3:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-4:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-4:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-5:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-5:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-6:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-6:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-7:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-7:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-8:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-8:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-9:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-9:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column note-10:note_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "note-10:note_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column place_of_origin-1:place_of_origin_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "place_of_origin-1:place_of_origin_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column publisher-1:publisher_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "publisher-1:publisher_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column series-1:series_title using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "series-1:series_title",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.authority using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_geographic-1:subject_geographic_term.authority",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.uri using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_geographic-1:subject_geographic_term.uri",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_geographic-1:subject_geographic_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_area-1:subject_hierarchical_geographic_area_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_area-1:subject_hierarchical_geographic_area_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_borough_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_borough_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_city-1:subject_hierarchical_geographic_city_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_city-1:subject_hierarchical_geographic_city_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_country_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_country_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_county_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_county_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_neighborhood_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_neighborhood_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_region_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_region_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_state_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_state_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_street-1:subject_hierarchical_geographic_street_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_street-1:subject_hierarchical_geographic_street_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_zip_code_text_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_zip_code_text_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_name-1:subject_name_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_name-1:subject_name_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_title-1:subject_title_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_title-1:subject_title_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column subject_topic-1:subject_topic_term.value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "subject_topic-1:subject_topic_term.value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column table_of_contents_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "table_of_contents_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column title-1:title_sort_portion using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "title-1:title_sort_portion",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+		"op": "core/text-transform",
+		"description": "Text transform on cells in column type_of_resource-1:type_of_resource_value using expression grel:value.replace(';','---')",
+		"engineConfig": {
+			"facets": [],
+			"mode": "record-based"
+		},
+		"columnName": "type_of_resource-1:type_of_resource_value",
+		"expression": "grel:value.replace(';','---')",
+		"onError": "keep-original",
+		"repeat": false,
+		"repeatCount": 10
+	},
+	{
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Master assets filenames using expression grel:value + ';' + value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NewItemFlag",
+          "expression": "value",
+          "columnName": "NewItemFlag",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "x",
+                "l": "x"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Master assets filenames",
+    "expression": "grel:value + ';' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column _digital_object_type.string_key using expression grel:'item;' + value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NewItemFlag",
+          "expression": "value",
+          "columnName": "NewItemFlag",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "x",
+                "l": "x"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "_digital_object_type.string_key",
+    "expression": "grel:'item;' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column _identifiers-1 using expression grel:value + ';' + value + '_001'",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NewItemFlag",
+          "expression": "value",
+          "columnName": "NewItemFlag",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "x",
+                "l": "x"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "_identifiers-1",
+    "expression": "grel:value + ';' + value + '_001'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column Service (Mezzanine) assets filenames using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "Service (Mezzanine) assets filenames",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column Access (Streaming) assets filenames using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "Access (Streaming) assets filenames",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.access_copy_import_path using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.access_copy_import_path",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.import_path using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.import_path",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.import_type using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.import_type",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.original_file_path using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.original_file_path",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.service_copy_import_path using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.service_copy_import_path",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.service_copy_import_type using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.service_copy_import_type",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _parent_digital_objects-1.identifier using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_parent_digital_objects-1.identifier",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note_derived_from-1:note_derived_from_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note_derived_from-1:note_derived_from_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column object_in_context_url-1:object_in_context_url_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "object_in_context_url-1:object_in_context_url_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column omeka_identifier-1:omeka_identifier_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "omeka_identifier-1:omeka_identifier_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column publish_note-1:publish_note_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "publish_note-1:publish_note_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.authority using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.authority",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.uri using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.uri",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-2:restriction_on_access_affiliation-1:restriction_on_access_affiliation_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-2:restriction_on_access_affiliation-1:restriction_on_access_affiliation_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-2:restriction_on_access_value using expression grel:'DELETE;' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-2:restriction_on_access_value",
+	"expression": "grel:'DELETE;' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column alternative_title-1:alternative_title_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "alternative_title-1:alternative_title_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _project.string_key using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_project.string_key",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _publish using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_publish",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _publish_targets-1.string_key using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_publish_targets-1.string_key",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-1:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-1:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-2:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-2:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-3:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-3:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-4:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-4:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-5:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-5:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-6:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-6:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-7:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-7:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-8:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-8:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-9:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-9:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column internal_note-10:internal_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "internal_note-10:internal_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-1:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-1:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-2:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-2:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-3:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-3:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-4:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-4:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-5:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-5:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-6:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-6:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-7:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-7:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-8:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-8:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-9:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-9:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-10:note_type using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-10:note_type",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-1:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-1:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-2:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-2:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-3:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-3:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-4:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-4:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-5:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-5:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-6:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-6:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-7:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-7:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-8:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-8:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-9:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-9:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note-10:note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "note-10:note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column title-1:title_non_sort_portion using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "title-1:title_non_sort_portion",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column title-1:title_sort_portion using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "title-1:title_sort_portion",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _restrictions.restricted_size_image using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "_restrictions.restricted_size_image",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column digital_origin-1:digital_origin_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "digital_origin-1:digital_origin_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column embargo_release_date-1:embargo_release_date_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "embargo_release_date-1:embargo_release_date_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column extent-1:extent_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "extent-1:extent_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column order_number-1:order_number_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "order_number-1:order_number_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column use_and_reproduction-1:use_and_reproduction_term.authority using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "use_and_reproduction-1:use_and_reproduction_term.authority",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column use_and_reproduction-1:use_and_reproduction_term.uri using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column use_and_reproduction-1:use_and_reproduction_term.value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column abstract-1:abstract_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "abstract-1:abstract_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column copyright_note-1:copyright_note_value using expression grel:value + ';' + value",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "NewItemFlag",
+				"expression": "value",
+				"columnName": "NewItemFlag",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "x",
+							"l": "x"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "record-based"
+	},
+	"columnName": "copyright_note-1:copyright_note_value",
+	"expression": "grel:value + ';' + value",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Master assets filenames",
+    "columnName": "Master assets filenames",
+    "keyColumnName": "_identifiers-1",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _digital_object_type.string_key",
+	"columnName": "_digital_object_type.string_key",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _identifiers-1",
+	"columnName": "_identifiers-1",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column Service (Mezzanine) assets filenames",
+	"columnName": "Service (Mezzanine) assets filenames",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column Access (Streaming) assets filenames",
+	"columnName": "Access (Streaming) assets filenames",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _import_file.access_copy_import_path",
+	"columnName": "_import_file.access_copy_import_path",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _import_file.import_path",
+	"columnName": "_import_file.import_path",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _import_file.import_type",
+	"columnName": "_import_file.import_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _import_file.original_file_path",
+	"columnName": "_import_file.original_file_path",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _import_file.service_copy_import_path",
+	"columnName": "_import_file.service_copy_import_path",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _import_file.service_copy_import_type",
+	"columnName": "_import_file.service_copy_import_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _parent_digital_objects-1.identifier",
+	"columnName": "_parent_digital_objects-1.identifier",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note_derived_from-1:note_derived_from_value",
+	"columnName": "note_derived_from-1:note_derived_from_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column object_in_context_url-1:object_in_context_url_value",
+	"columnName": "object_in_context_url-1:object_in_context_url_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column omeka_identifier-1:omeka_identifier_value",
+	"columnName": "omeka_identifier-1:omeka_identifier_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column publish_note-1:publish_note_value",
+	"columnName": "publish_note-1:publish_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.authority",
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.authority",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.uri",
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.uri",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.value",
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column restriction_on_access-1:restriction_on_access_value",
+	"columnName": "restriction_on_access-1:restriction_on_access_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column restriction_on_access-2:restriction_on_access_affiliation-1:restriction_on_access_affiliation_value",
+	"columnName": "restriction_on_access-2:restriction_on_access_affiliation-1:restriction_on_access_affiliation_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column restriction_on_access-2:restriction_on_access_value",
+	"columnName": "restriction_on_access-2:restriction_on_access_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column alternative_title-1:alternative_title_value",
+	"columnName": "alternative_title-1:alternative_title_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _project.string_key",
+	"columnName": "_project.string_key",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _publish",
+	"columnName": "_publish",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _publish_targets-1.string_key",
+	"columnName": "_publish_targets-1.string_key",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-1:internal_note_value",
+	"columnName": "internal_note-1:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-2:internal_note_value",
+	"columnName": "internal_note-2:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-3:internal_note_value",
+	"columnName": "internal_note-3:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-4:internal_note_value",
+	"columnName": "internal_note-4:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-5:internal_note_value",
+	"columnName": "internal_note-5:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-6:internal_note_value",
+	"columnName": "internal_note-6:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-7:internal_note_value",
+	"columnName": "internal_note-7:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-8:internal_note_value",
+	"columnName": "internal_note-8:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-9:internal_note_value",
+	"columnName": "internal_note-9:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column internal_note-10:internal_note_value",
+	"columnName": "internal_note-10:internal_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-1:note_type",
+	"columnName": "note-1:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-2:note_type",
+	"columnName": "note-2:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-3:note_type",
+	"columnName": "note-3:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-4:note_type",
+	"columnName": "note-4:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-5:note_type",
+	"columnName": "note-5:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-6:note_type",
+	"columnName": "note-6:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-7:note_type",
+	"columnName": "note-7:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-8:note_type",
+	"columnName": "note-8:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-9:note_type",
+	"columnName": "note-9:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-10:note_type",
+	"columnName": "note-10:note_type",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-1:note_value",
+	"columnName": "note-1:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-2:note_value",
+	"columnName": "note-2:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-3:note_value",
+	"columnName": "note-3:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-4:note_value",
+	"columnName": "note-4:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-5:note_value",
+	"columnName": "note-5:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-6:note_value",
+	"columnName": "note-6:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-7:note_value",
+	"columnName": "note-7:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-8:note_value",
+	"columnName": "note-8:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-9:note_value",
+	"columnName": "note-9:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column note-10:note_value",
+	"columnName": "note-10:note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column title-1:title_non_sort_portion",
+	"columnName": "title-1:title_non_sort_portion",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column title-1:title_sort_portion",
+	"columnName": "title-1:title_sort_portion",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column _restrictions.restricted_size_image",
+	"columnName": "_restrictions.restricted_size_image",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column digital_origin-1:digital_origin_value",
+	"columnName": "digital_origin-1:digital_origin_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column embargo_release_date-1:embargo_release_date_value",
+	"columnName": "embargo_release_date-1:embargo_release_date_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column extent-1:extent_value",
+	"columnName": "extent-1:extent_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column order_number-1:order_number_value",
+	"columnName": "order_number-1:order_number_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column use_and_reproduction-1:use_and_reproduction_term.authority",
+	"columnName": "use_and_reproduction-1:use_and_reproduction_term.authority",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column use_and_reproduction-1:use_and_reproduction_term.uri",
+	"columnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column use_and_reproduction-1:use_and_reproduction_term.value",
+	"columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column abstract-1:abstract_value",
+	"columnName": "abstract-1:abstract_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+	"op": "core/multivalued-cell-split",
+	"description": "Split multi-valued cells in column copyright_note-1:copyright_note_value",
+	"columnName": "copyright_note-1:copyright_note_value",
+	"keyColumnName": "Master assets filenames",
+	"mode": "separator",
+	"separator": ";",
+	"regex": false
+},
+{
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column Master assets filenames",
+    "columnName": "Master assets filenames",
+    "keyColumnName": "_identifiers-1",
+    "separator": ""
+  },
+  {
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column Service (Mezzanine) assets filenames using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "Service (Mezzanine) assets filenames",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column Access (Streaming) assets filenames using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "Access (Streaming) assets filenames",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.access_copy_import_path using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.access_copy_import_path",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.import_path using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.import_path",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.import_type using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.import_type",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.original_file_path using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.original_file_path",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.service_copy_import_path using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.service_copy_import_path",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _import_file.service_copy_import_type using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_import_file.service_copy_import_type",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column _parent_digital_objects-1.identifier using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "_parent_digital_objects-1.identifier",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column note_derived_from-1:note_derived_from_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "note_derived_from-1:note_derived_from_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column object_in_context_url-1:object_in_context_url_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "object_in_context_url-1:object_in_context_url_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column omeka_identifier-1:omeka_identifier_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "omeka_identifier-1:omeka_identifier_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column publish_note-1:publish_note_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "publish_note-1:publish_note_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.authority using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.authority",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.uri using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.uri",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_location-1:restriction_on_access_location_term.value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-1:restriction_on_access_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-2:restriction_on_access_affiliation-1:restriction_on_access_affiliation_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-2:restriction_on_access_affiliation-1:restriction_on_access_affiliation_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column restriction_on_access-2:restriction_on_access_value using expression grel:value.replace('DELETE','')",
+	"engineConfig": {
+		"facets": [],
+		"mode": "record-based"
+	},
+	"columnName": "restriction_on_access-2:restriction_on_access_value",
+	"expression": "grel:value.replace('DELETE','')",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column _parent_digital_objects-1.identifier using expression grel:null",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "_parent_digital_objects-1.identifier",
+    "expression": "grel:null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Master assets filenames using expression grel:null",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "_digital_object_type.string_key",
+          "expression": "value",
+          "columnName": "_digital_object_type.string_key",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "item",
+                "l": "item"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Master assets filenames",
+    "expression": "grel:null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NewItemFlag",
+    "columnName": "NewItemFlag"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column abstract-1:abstract_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "abstract-1:abstract_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column alternative_title-1:alternative_title_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "alternative_title-1:alternative_title_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column collection-1:collection_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "collection-1:collection_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column coordinates-1:coordinates_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "coordinates-1:coordinates_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column copyright_note-1:copyright_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "copyright_note-1:copyright_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column culture-1:culture_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "culture-1:culture_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column extent-1:extent_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "extent-1:extent_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column form-1:form_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "form-1:form_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column frequency-1:frequency_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "frequency-1:frequency_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column genre-1:genre_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "genre-1:genre_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-1:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-1:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-2:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-2:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-3:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-3:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-4:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-4:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-5:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-5:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-6:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-6:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-7:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-7:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-8:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-8:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-9:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-9:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-10:internal_note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "internal_note-10:internal_note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column language-1:language_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "language-1:language_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column location-1:location_shelf_location-1:location_shelf_location_free_text using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "location-1:location_shelf_location-1:location_shelf_location_free_text",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column location-1:location_sublocation using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "location-1:location_sublocation",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column location-1:location_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "location-1:location_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_role-1:name_role_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_role-1:name_role_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-1:note_type using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-1:note_type",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-1:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-1:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-2:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-2:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-3:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-3:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-4:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-4:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-5:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-5:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-6:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-6:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-7:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-7:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-8:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-8:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-9:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-9:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-10:note_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "note-10:note_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column place_of_origin-1:place_of_origin_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "place_of_origin-1:place_of_origin_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column publisher-1:publisher_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "publisher-1:publisher_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column series-1:series_title using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "series-1:series_title",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.authority using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_geographic-1:subject_geographic_term.authority",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.uri using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_geographic-1:subject_geographic_term.uri",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_geographic-1:subject_geographic_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_area-1:subject_hierarchical_geographic_area_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_area-1:subject_hierarchical_geographic_area_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_borough_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_borough_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_city-1:subject_hierarchical_geographic_city_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_city-1:subject_hierarchical_geographic_city_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_country_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_country_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_county_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_county_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_neighborhood_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_neighborhood_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_region_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_region_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_state_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_state_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_street-1:subject_hierarchical_geographic_street_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_street-1:subject_hierarchical_geographic_street_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_zip_code_text_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_zip_code_text_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_name-1:subject_name_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_name-1:subject_name_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_title-1:subject_title_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_title-1:subject_title_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column subject_topic-1:subject_topic_term.value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "subject_topic-1:subject_topic_term.value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column table_of_contents_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "table_of_contents_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title-1:title_sort_portion using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "title-1:title_sort_portion",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column type_of_resource-1:type_of_resource_value using expression grel:value.replace('---',';')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "type_of_resource-1:type_of_resource_value",
+    "expression": "grel:value.replace('---',';')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column accession_number-1:accession_number_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "accession_number-1:accession_number_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column archivesspace_identifier-1:archivesspace_identifier_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "archivesspace_identifier-1:archivesspace_identifier_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column clio_identifier-1:clio_identifier_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "clio_identifier-1:clio_identifier_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_level using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_level",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_type using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_type",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-3:collection_archival_series_part_level using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-3:collection_archival_series_part_level",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-3:collection_archival_series_part_title using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-3:collection_archival_series_part_title",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-3:collection_archival_series_part_type using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-3:collection_archival_series_part_type",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_term.uri using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_term.uri",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column collection-1:collection_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "collection-1:collection_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column coordinates-1:coordinates_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "coordinates-1:coordinates_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column culture-1:culture_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "culture-1:culture_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column date_created_textual-1:date_created_textual_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "date_created_textual-1:date_created_textual_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column date_created-1:date_created_end_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "date_created-1:date_created_end_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column date_created-1:date_created_key_date using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "date_created-1:date_created_key_date",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "date_created-1:date_created_start_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column date_created-1:date_created_type using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "date_created-1:date_created_type",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column form-1:form_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "form-1:form_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column frequency-1:frequency_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "frequency-1:frequency_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column genre-1:genre_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "genre-1:genre_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column language-1:language_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "language-1:language_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_shelf_location-1:location_shelf_location_box_number using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_shelf_location-1:location_shelf_location_box_number",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_shelf_location-1:location_shelf_location_folder_number using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_shelf_location-1:location_shelf_location_folder_number",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_shelf_location-1:location_shelf_location_free_text using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_shelf_location-1:location_shelf_location_free_text",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_shelf_location-1:location_shelf_location_item_number using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_shelf_location-1:location_shelf_location_item_number",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_sublocation using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_sublocation",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_term.uri using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_term.uri",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column location-1:location_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "location-1:location_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column name-1:name_role-1:name_role_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "name-1:name_role-1:name_role_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column name-1:name_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "name-1:name_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column name-1:name_usage_primary using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "name-1:name_usage_primary",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column place_of_origin-1:place_of_origin_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "place_of_origin-1:place_of_origin_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column publisher-1:publisher_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "publisher-1:publisher_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column series-1:series_issn using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "series-1:series_issn",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column series-1:series_number using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "series-1:series_number",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column series-1:series_title using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "series-1:series_title",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_geographic-1:subject_geographic_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_geographic-1:subject_geographic_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_area-1:subject_hierarchical_geographic_area_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_area-1:subject_hierarchical_geographic_area_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_borough_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_borough_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_city-1:subject_hierarchical_geographic_city_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_city-1:subject_hierarchical_geographic_city_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_country_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_country_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_county_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_county_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_neighborhood_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_neighborhood_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_region_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_region_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_state_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_state_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_street-1:subject_hierarchical_geographic_street_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_street-1:subject_hierarchical_geographic_street_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_hierarchical_geographic-1:subject_hierarchical_geographic_zip_code_text_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_hierarchical_geographic-1:subject_hierarchical_geographic_zip_code_text_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_name-1:subject_name_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_name-1:subject_name_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_topic-1:subject_topic_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_topic-1:subject_topic_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column subject_title-1:subject_title_term.value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "subject_title-1:subject_title_term.value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column table_of_contents_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "table_of_contents_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+},
+{
+	"op": "core/text-transform",
+	"description": "Text transform on cells in column type_of_resource-1:type_of_resource_value using expression grel:null",
+	"engineConfig": {
+		"facets": [
+			{
+				"type": "list",
+				"name": "_digital_object_type.string_key",
+				"expression": "value",
+				"columnName": "_digital_object_type.string_key",
+				"invert": false,
+				"selection": [
+					{
+						 "v": {
+							"v": "asset",
+							"l": "asset"
+						}
+					}
+				],
+				"selectNumber": false,
+				"selectDateTime": false,
+				"selectBoolean": false,
+				"omitBlank": false,
+				"selectBlank": false,
+				"omitError": false,
+				"selectError": false
+			}
+		],
+		"mode": "row-based"
+	},
+	"columnName": "type_of_resource-1:type_of_resource_value",
+	"expression": "grel:null",
+	"onError": "keep-original",
+	"repeat": false,
+	"repeatCount": 10
+}
+]
