@@ -1,0 +1,28 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column genre-1:genre_term.uri at index 37 based on column genre-1:genre_term.value using expression grel:cell.cross('LCGFT','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "genre-1:genre_term.uri",
+    "columnInsertIndex": 37,
+    "baseColumnName": "genre-1:genre_term.value",
+    "expression": "grel:cell.cross('LCGFT','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column genre-1:genre_term.authority at index 37 based on column genre-1:genre_term.value using expression grel:value.replace(/.+/,'lcgft')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "genre-1:genre_term.authority",
+    "columnInsertIndex": 37,
+    "baseColumnName": "genre-1:genre_term.value",
+    "expression": "grel:value.replace(/.+/,'lcgft')",
+    "onError": "set-to-blank"
+  }
+]
