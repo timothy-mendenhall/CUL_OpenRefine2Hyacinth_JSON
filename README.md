@@ -15,7 +15,7 @@ Here is a breadkdown of the files:
       - Access points addressed by the scripts (all EXCEPT roles: names, subjects, languages, and forms) are capped at 10 values per item
       - Roles are capped at 3 roles per item
   - Reconciliation is run against: LC/NAF via VIAF (name, subject-name, subject-geographic, subject-title), FAST (subject-topic, genre), MARC relators (name-role), MARC languages (language), Hyacinth Form (form), Hyacinth location (Location), Hyacinth Rights (use-reproduction)
-  - Currently there are some dependencies for MARC languages, Hyacinth Rights, and Hyacinth Form [to be added to this repo later]
+  - Currently there are some dependencies for MARC languages, Hyacinth Rights, and Hyacinth Form, available in the **Dependencies** directory
 - **post-recon.json**: this will split up fields with multiple values, e.g. name-1, name-2, and keep them in sync with their reconciliation data and item-asset structure
 - **column-sort_2019-10-03.json**: this will sort the columns; note that any custom columns will be deleted by this task list; edit the JSON if you need to add in custom columns
 - **Older versions** of the JSON files will be put into the Older versions directory
