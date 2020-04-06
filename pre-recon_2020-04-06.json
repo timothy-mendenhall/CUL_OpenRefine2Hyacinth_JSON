@@ -1,0 +1,816 @@
+[
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column culture-1:culture_term.value",
+    "columnName": "culture-1:culture_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column form-1:form_term.value",
+    "columnName": "form-1:form_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column genre-1:genre_term.value",
+    "columnName": "genre-1:genre_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column language-1:language_term.value",
+    "columnName": "language-1:language_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column name-1:name_term.value",
+    "columnName": "name-1:name_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_term.value using expression grel:value.replace('---','- --')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_term.value",
+    "expression": "grel:value.replace('---','- --')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_term.value using expression grel:value.replace(/([^\\s])--/,'$1 --')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_term.value",
+    "expression": "grel:value.replace(/([^\\s])--/,'$1 --')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_term.value using expression grel:value.replace(/ --(.+)/,';$1')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_term.value",
+    "expression": "grel:value.replace(/ --(.+)/,';$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-1:name_role_term.value at index 65 based on column name-1:name_term.value using expression grel:value.replace(/.+;(.+)/,'$1')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "name-1:name_role-1:name_role_term.value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_term.value",
+    "expression": "grel:value.replace(/.+;(.+)/,'$1')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_term.value using expression grel:value.replace(/;.+/,'')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_term.value",
+    "expression": "grel:value.replace(/;.+/,'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column name-1:name_role-1:name_role_term.value by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "name-1:name_role-1:name_role_term.value",
+    "guessCellType": false,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " --",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_role-1:name_role_term.value 1 to name-1:name_role-1:name_role_term.value",
+    "oldColumnName": "name-1:name_role-1:name_role_term.value 1",
+    "newColumnName": "name-1:name_role-1:name_role_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_role-1:name_role_term.value 2 to name-1:name_role-2:name_role_term.value",
+    "oldColumnName": "name-1:name_role-1:name_role_term.value 2",
+    "newColumnName": "name-1:name_role-2:name_role_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column name-1:name_role-1:name_role_term.value 3 to name-1:name_role-3:name_role_term.value",
+    "oldColumnName": "name-1:name_role-1:name_role_term.value 3",
+    "newColumnName": "name-1:name_role-3:name_role_term.value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column subject_geographic-1:subject_geographic_term.value",
+    "columnName": "subject_geographic-1:subject_geographic_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column subject_name-1:subject_name_term.value",
+    "columnName": "subject_name-1:subject_name_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column subject_title-1:subject_title_term.value",
+    "columnName": "subject_title-1:subject_title_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column subject_topic-1:subject_topic_term.value",
+    "columnName": "subject_topic-1:subject_topic_term.value",
+    "keyColumnName": "_project.string_key",
+    "mode": "separator",
+    "separator": ";",
+    "regex": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column culture-1:culture_term.value to type /aat",
+    "columnName": "culture-1:culture_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://services.getty.edu/vocab/reconcile/",
+      "identifierSpace": "http://vocab.getty.edu/doc/#GVP_URLs_and_Prefixes",
+      "schemaSpace": "http://vocab.getty.edu/doc/#The_Getty_Vocabularies_and_LOD",
+      "type": {
+        "id": "/aat",
+        "name": "AAT search"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column form-1:form_term.uri at index 45 based on column form-1:form_term.value using expression grel:cell.cross('HyacinthForm','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "form-1:form_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "form-1:form_term.value",
+    "expression": "grel:cell.cross('HyacinthForm','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column form-1:form_term.authority at index 45 based on column form-1:form_term.value using expression grel:cell.cross('HyacinthForm','Label').cells['Source'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "form-1:form_term.authority",
+    "columnInsertIndex": 1,
+    "baseColumnName": "form-1:form_term.value",
+    "expression": "grel:cell.cross('HyacinthForm','Label').cells['Source'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column genre-1:genre_term.value to type /fast/form",
+    "columnName": "genre-1:genre_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:5000/reconcile",
+      "identifierSpace": "http://id.worldcat.org/fast/",
+      "schemaSpace": "https://schema.org/Thing",
+      "type": {
+        "id": "/fast/form",
+        "name": "/fast/form"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column language-1:language_term.uri at index 53 based on column language-1:language_term.value using expression grel:cell.cross('iso6392Languages','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "language-1:language_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "language-1:language_term.value",
+    "expression": "grel:cell.cross('iso6392Languages','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column language-1:language_term.authority at index 54 based on column language-1:language_term.uri using expression grel:value.replace(/.+/,'iso639-2b')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "language-1:language_term.authority",
+    "columnInsertIndex": 1,
+    "baseColumnName": "language-1:language_term.uri",
+    "expression": "grel:value.replace(/.+/,'iso639-2b')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column location-1:location_term.uri at index 56 based on column location-1:location_term.value using expression grel:cell.cross('HyacinthLocation','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "location-1:location_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "location-1:location_term.value",
+    "expression": "grel:cell.cross('HyacinthLocation','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_term.name_type at index 63 based on column name-1:name_term.value using expression grel:'personal'",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "name-1:name_term.value",
+          "columnName": "name-1:name_term.value",
+          "query": "^([A-Za-z\\u00C0-\\u1EF3\\s\\-\\'])+,",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_term.name_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_term.value",
+    "expression": "grel:'personal'",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column name-1:name_term.name_type",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "name-1:name_term.name_type",
+          "expression": "isBlank(value).toString()",
+          "columnName": "name-1:name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "name-1:name_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "name-1:name_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "name-1:name_term.name_type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [
+          ""
+        ],
+        "to": "corporate"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column name-1:name_term.value to type /people/person",
+    "columnName": "name-1:name_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/people/person",
+        "name": "Person"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "name-1:name_term.name_type",
+          "expression": "value",
+          "columnName": "name-1:name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "personal",
+                "l": "personal"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column name-1:name_term.value to type /organization/organization",
+    "columnName": "name-1:name_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/organization/organization",
+        "name": "Corporate Name"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "name-1:name_term.name_type",
+          "expression": "value",
+          "columnName": "name-1:name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "corporate",
+                "l": "corporate"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-1:name_role_term.uri at index 72 based on column name-1:name_role-1:name_role_term.value using expression grel:cell.cross('MARCrelators','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-1:name_role_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_role-1:name_role_term.value",
+    "expression": "grel:cell.cross('MARCrelators','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-1:name_role_term.authority at index 73 based on column name-1:name_role-1:name_role_term.uri using expression grel:value.replace(/.+/,'marcrelator')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-1:name_role_term.authority",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_role-1:name_role_term.uri",
+    "expression": "grel:value.replace(/.+/,'marcrelator')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-2:name_role_term.uri at index 75 based on column name-1:name_role-2:name_role_term.value using expression grel:cell.cross('MARCrelators','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-2:name_role_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_role-2:name_role_term.value",
+    "expression": "grel:cell.cross('MARCrelators','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-2:name_role_term.authority at index 76 based on column name-1:name_role-2:name_role_term.uri using expression grel:value.replace(/.+/,'marcrelator')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-2:name_role_term.authority",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_role-2:name_role_term.uri",
+    "expression": "grel:value.replace(/.+/,'marcrelator')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-3:name_role_term.uri at index 75 based on column name-1:name_role-3:name_role_term.value using expression grel:cell.cross('MARCrelators','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-3:name_role_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_role-3:name_role_term.value",
+    "expression": "grel:cell.cross('MARCrelators','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_role-3:name_role_term.authority at index 76 based on column name-1:name_role-3:name_role_term.uri using expression grel:value.replace(/.+/,'marcrelator')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_role-3:name_role_term.authority",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_role-3:name_role_term.uri",
+    "expression": "grel:value.replace(/.+/,'marcrelator')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_geographic-1:subject_geographic_term.value to type /location/location",
+    "columnName": "subject_geographic-1:subject_geographic_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/location/location",
+        "name": "Geographic Name"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_name-1:subject_name_term.name_type at index 97 based on column subject_name-1:subject_name_term.value using expression grel:'personal'",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "subject_name-1:subject_name_term.value",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "query": "^([A-Za-z\\u00C0-\\u1EF3\\s\\-\\'])+,",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_name-1:subject_name_term.name_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "subject_name-1:subject_name_term.value",
+    "expression": "grel:'personal'",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column subject_name-1:subject_name_term.name_type",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.name_type",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_name-1:subject_name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.value",
+          "expression": "isBlank(value).toString()",
+          "columnName": "subject_name-1:subject_name_term.value",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "subject_name-1:subject_name_term.name_type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [
+          ""
+        ],
+        "to": "corporate"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_name-1:subject_name_term.value to type /people/person",
+    "columnName": "subject_name-1:subject_name_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/people/person",
+        "name": "Person"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.name_type",
+          "expression": "value",
+          "columnName": "subject_name-1:subject_name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "personal",
+                "l": "personal"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_name-1:subject_name_term.value to type /organization/organization",
+    "columnName": "subject_name-1:subject_name_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/organization/organization",
+        "name": "/organization/organization"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "subject_name-1:subject_name_term.name_type",
+          "expression": "value",
+          "columnName": "subject_name-1:subject_name_term.name_type",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "corporate",
+                "l": "corporate"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_title-1:subject_title_term.value to type /book/book",
+    "columnName": "subject_title-1:subject_title_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://refine.codefork.com/reconcile/viafproxy/LC",
+      "identifierSpace": "http://rdf.freebase.com/ns/user/hangy/viaf",
+      "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+      "type": {
+        "id": "/book/book",
+        "name": "Work"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column subject_topic-1:subject_topic_term.value to type /fast/all",
+    "columnName": "subject_topic-1:subject_topic_term.value",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:5000/reconcile",
+      "identifierSpace": "http://id.worldcat.org/fast/",
+      "schemaSpace": "https://schema.org/Thing",
+      "type": {
+        "id": "/fast/all",
+        "name": "/fast/all"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.uri at index 104 based on column use_and_reproduction-1:use_and_reproduction_term.value using expression grel:cell.cross('HyacinthRights','Label').cells['URI'].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "columnInsertIndex": 1,
+    "baseColumnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+    "expression": "grel:cell.cross('HyacinthRights','Label').cells['URI'].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column use_and_reproduction-1:use_and_reproduction_term.authority at index 105 based on column use_and_reproduction-1:use_and_reproduction_term.uri using expression grel:value.replace(/.+/,'rightsstatements')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.authority",
+    "columnInsertIndex": 1,
+    "baseColumnName": "use_and_reproduction-1:use_and_reproduction_term.uri",
+    "expression": "grel:value.replace(/.+/,'rightsstatements')",
+    "onError": "set-to-blank"
+  }
+]

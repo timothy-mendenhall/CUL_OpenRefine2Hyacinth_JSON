@@ -1,0 +1,911 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Repository to location-1:location_term.value",
+    "oldColumnName": "Repository",
+    "newColumnName": "location-1:location_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Collection Name to collection-1:collection_term.value",
+    "oldColumnName": "Collection Name",
+    "newColumnName": "collection-1:collection_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Barcode to internal_note-1:internal_note_value",
+    "oldColumnName": "Barcode",
+    "newColumnName": "internal_note-1:internal_note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Title to title-1:title_sort_portion",
+    "oldColumnName": "Title",
+    "newColumnName": "title-1:title_sort_portion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description to abstract-1:abstract_value",
+    "oldColumnName": "Description",
+    "newColumnName": "abstract-1:abstract_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Original Format to note-1:note_value",
+    "oldColumnName": "Original Format",
+    "newColumnName": "note-1:note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Date to date_created_textual-1:date_created_textual_value",
+    "oldColumnName": "Date",
+    "newColumnName": "date_created_textual-1:date_created_textual_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CLIO ID to clio_identifier-1:clio_identifier_value",
+    "oldColumnName": "CLIO ID",
+    "newColumnName": "clio_identifier-1:clio_identifier_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Physical Object Sequence No to internal_note-2:internal_note_value",
+    "oldColumnName": "Physical Object Sequence No",
+    "newColumnName": "internal_note-2:internal_note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Identifer (Intellectual item filename) to _identifiers-1",
+    "oldColumnName": "Identifer (Intellectual item filename)",
+    "newColumnName": "_identifiers-1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Master assets directory path to _import_file.import_path",
+    "oldColumnName": "Master assets directory path",
+    "newColumnName": "_import_file.import_path"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Service (Mezzanine) assets directory path to _import_file.service_copy_import_path",
+    "oldColumnName": "Service (Mezzanine) assets directory path",
+    "newColumnName": "_import_file.service_copy_import_path"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Access (Streaming) assets directory path to _import_file.access_copy_import_path",
+    "oldColumnName": "Access (Streaming) assets directory path",
+    "newColumnName": "_import_file.access_copy_import_path"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Notes on quality and contents to internal_note-3:internal_note_value",
+    "oldColumnName": "Notes on quality and contents",
+    "newColumnName": "internal_note-3:internal_note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Internal notes to internal_note-4:internal_note_value",
+    "oldColumnName": "Internal notes",
+    "newColumnName": "internal_note-4:internal_note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Duration to extent-1:extent_value",
+    "oldColumnName": "Duration",
+    "newColumnName": "extent-1:extent_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Year digitized to internal_note-5:internal_note_value",
+    "oldColumnName": "Year digitized",
+    "newColumnName": "internal_note-5:internal_note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Hyacinth Project to _project.string_key",
+    "oldColumnName": "Hyacinth Project",
+    "newColumnName": "_project.string_key"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Restrictions on Access to restriction_on_access-1:restriction_on_access_value",
+    "oldColumnName": "Restrictions on Access",
+    "newColumnName": "restriction_on_access-1:restriction_on_access_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Use and Reproduction Value to use_and_reproduction-1:use_and_reproduction_term.value",
+    "oldColumnName": "Use and Reproduction Value",
+    "newColumnName": "use_and_reproduction-1:use_and_reproduction_term.value"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Shipping Date",
+    "columnName": "Shipping Date"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Shipping Box",
+    "columnName": "Shipping Box"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Filename Prefix",
+    "columnName": "Filename Prefix"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column collection_name to collection-2:collection_term.value",
+    "oldColumnName": "collection_name",
+    "newColumnName": "collection-2:collection_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column bib_id to clio_identifier-2:clio_identifier_value",
+    "oldColumnName": "bib_id",
+    "newColumnName": "clio_identifier-2:clio_identifier_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column rights to use_and_reproduction-2:use_and_reproduction_term.value",
+    "oldColumnName": "rights",
+    "newColumnName": "use_and_reproduction-2:use_and_reproduction_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column series_title to collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+    "oldColumnName": "series_title",
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column subseries_title to collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title",
+    "oldColumnName": "subseries_title",
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ref_id to archivesspace_identifier-1:archivesspace_identifier_value",
+    "oldColumnName": "ref_id",
+    "newColumnName": "archivesspace_identifier-1:archivesspace_identifier_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column unittitle to title-2:title_sort_portion",
+    "oldColumnName": "unittitle",
+    "newColumnName": "title-2:title_sort_portion"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column unitdate to date_created_textual-2:date_created_textual_value",
+    "oldColumnName": "unitdate",
+    "newColumnName": "date_created_textual-2:date_created_textual_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column creator_1 to name-1:name_term.value",
+    "oldColumnName": "creator_1",
+    "newColumnName": "name-1:name_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column box_num to location-1:location_shelf_location-1:location_shelf_location_box_number",
+    "oldColumnName": "box_num",
+    "newColumnName": "location-1:location_shelf_location-1:location_shelf_location_box_number"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column container2 to location-1:location_shelf_location-1:location_shelf_location_folder_number",
+    "oldColumnName": "container2",
+    "newColumnName": "location-1:location_shelf_location-1:location_shelf_location_folder_number"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column note-2:note_type at index 45 based on column physfacet using expression grel:value.replace(/.+/,'Physical details')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "note-2:note_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "physfacet",
+    "expression": "grel:value.replace(/.+/,'Physical details')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column physfacet to note-2:note_value",
+    "oldColumnName": "physfacet",
+    "newColumnName": "note-2:note_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column form to form-1:form_term.value",
+    "oldColumnName": "form",
+    "newColumnName": "form-1:form_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column scopenote to abstract-2:abstract_value",
+    "oldColumnName": "scopenote",
+    "newColumnName": "abstract-2:abstract_value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column language to language-1:language_term.value",
+    "oldColumnName": "language",
+    "newColumnName": "language-1:language_term.value"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column restrictions to restriction_on_access-2:restriction_on_access_value",
+    "oldColumnName": "restrictions",
+    "newColumnName": "restriction_on_access-2:restriction_on_access_value"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column collection-1:collection_term.value using expression grel:if(or(value == '', value == null),cells['collection-2:collection_term.value'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collection-1:collection_term.value",
+    "expression": "grel:if(or(value == '', value == null),cells['collection-2:collection_term.value'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title-1:title_sort_portion using expression grel:if(or(value == '', value == null),cells['title-2:title_sort_portion'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title-1:title_sort_portion",
+    "expression": "grel:if(or(value == '', value == null),cells['title-2:title_sort_portion'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column abstract-1:abstract_value using expression grel:if(or(value == '', value == null),cells['abstract-2:abstract_value'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "abstract-1:abstract_value",
+    "expression": "grel:if(or(value == '', value == null),cells['abstract-2:abstract_value'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created_textual-1:date_created_textual_value using expression grel:if(or(value == '', value == null),cells['date_created_textual-2:date_created_textual_value'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created_textual-1:date_created_textual_value",
+    "expression": "grel:if(or(value == '', value == null),cells['date_created_textual-2:date_created_textual_value'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column clio_identifier-1:clio_identifier_value using expression grel:if(or(value == '', value == null),cells['clio_identifier-1:clio_identifier_value'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "clio_identifier-1:clio_identifier_value",
+    "expression": "grel:if(or(value == '', value == null),cells['clio_identifier-1:clio_identifier_value'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column restriction_on_access-1:restriction_on_access_value using expression grel:if(or(value == '', value == null),cells['restriction_on_access-2:restriction_on_access_value'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "restriction_on_access-1:restriction_on_access_value",
+    "expression": "grel:if(or(value == '', value == null),cells['restriction_on_access-2:restriction_on_access_value'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column use_and_reproduction-1:use_and_reproduction_term.value using expression grel:if(or(value == '', value == null),cells['use_and_reproduction-2:use_and_reproduction_term.value'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-1:use_and_reproduction_term.value",
+    "expression": "grel:if(or(value == '', value == null),cells['use_and_reproduction-2:use_and_reproduction_term.value'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column collection-2:collection_term.value using expression grel:if(value == cells['collection-1:collection_term.value'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collection-2:collection_term.value",
+    "expression": "grel:if(value == cells['collection-1:collection_term.value'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column clio_identifier-2:clio_identifier_value using expression grel:if(value == cells['clio_identifier-1:clio_identifier_value'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "clio_identifier-2:clio_identifier_value",
+    "expression": "grel:if(value == cells['clio_identifier-1:clio_identifier_value'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column use_and_reproduction-2:use_and_reproduction_term.value using expression grel:if(value == cells['use_and_reproduction-1:use_and_reproduction_term.value'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "use_and_reproduction-2:use_and_reproduction_term.value",
+    "expression": "grel:if(value == cells['use_and_reproduction-1:use_and_reproduction_term.value'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column restriction_on_access-2:restriction_on_access_value using expression grel:if(value == cells['restriction_on_access-1:restriction_on_access_value'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "restriction_on_access-2:restriction_on_access_value",
+    "expression": "grel:if(value == cells['restriction_on_access-1:restriction_on_access_value'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column title-2:title_sort_portion using expression grel:if(value == cells['title-1:title_sort_portion'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title-2:title_sort_portion",
+    "expression": "grel:if(value == cells['title-1:title_sort_portion'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created_textual-2:date_created_textual_value using expression grel:if(value == cells['date_created_textual-1:date_created_textual_value'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created_textual-2:date_created_textual_value",
+    "expression": "grel:if(value == cells['date_created_textual-1:date_created_textual_value'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column abstract-2:abstract_value using expression grel:if(value == cells['abstract-1:abstract_value'].value,null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "abstract-2:abstract_value",
+    "expression": "grel:if(value == cells['abstract-1:abstract_value'].value,null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-1:internal_note_value using expression grel:'Barcode: ' + value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-1:internal_note_value",
+    "expression": "grel:'Barcode: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-1:note_value using expression grel:'Original format: ' + value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "note-1:note_value",
+    "expression": "grel:'Original format: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_key_date at index 7 based on column date_created_textual-1:date_created_textual_value using expression grel:'TRUE'",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_key_date",
+    "columnInsertIndex": 1,
+    "baseColumnName": "date_created_textual-1:date_created_textual_value",
+    "expression": "grel:'TRUE'",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_type at index 7 based on column date_created_textual-1:date_created_textual_value using expression grel:if(contains(value,'circa'),'approximate',if(contains(value,'?'),'questionable',null))",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "date_created_textual-1:date_created_textual_value",
+    "expression": "grel:if(contains(value,'circa'),'approximate',if(contains(value,'?'),'questionable',null))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_start_value at index 7 based on column date_created_textual-1:date_created_textual_value using expression grel:value.replace('circa ','')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_start_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "date_created_textual-1:date_created_textual_value",
+    "expression": "grel:value.replace('circa ','')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:value.replace('?','')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created-1:date_created_start_value",
+    "expression": "grel:value.replace('?','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column date_created-1:date_created_start_value using expression grel:toDate(value).toString('yyyy-MM-dd')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "date_created-1:date_created_start_value",
+    "expression": "grel:toDate(value).toString('yyyy-MM-dd')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date_created-1:date_created_end_value at index 8 based on column date_created-1:date_created_start_value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date_created-1:date_created_end_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "date_created-1:date_created_start_value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-2:internal_note_value using expression grel:'Physical object sequence number: ' + value + '; Number of physical objects in title: ' + cells['No. of Physical Objects in Title'].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-2:internal_note_value",
+    "expression": "grel:'Physical object sequence number: ' + value + '; Number of physical objects in title: ' + cells['No. of Physical Objects in Title'].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column No. of Physical Objects in Title",
+    "columnName": "No. of Physical Objects in Title"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _import_file.import_type at index 16 based on column _import_file.import_path using expression grel:value.replace(/.+/,'external')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_import_file.import_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "_import_file.import_path",
+    "expression": "grel:value.replace(/.+/,'external')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _import_file.service_copy_import_type at index 19 based on column _import_file.service_copy_import_path using expression grel:value.replace(/.+/,'external')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_import_file.service_copy_import_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "_import_file.service_copy_import_path",
+    "expression": "grel:value.replace(/.+/,'external')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-3:internal_note_value using expression grel:'Notes on quality and contents: ' + value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-3:internal_note_value",
+    "expression": "grel:'Notes on quality and contents: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column extent-2:extent_value at index 28 based on column extent-1:extent_value using expression grel:toNumber(value.substring(0,2))*60 + (toNumber(value.toDate().datePart('min')) + round((toNumber(value.toDate().datePart('s')))*0.01666666667)) + ' minutes'",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "extent-2:extent_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "extent-1:extent_value",
+    "expression": "grel:toNumber(value.substring(0,2))*60 + (toNumber(value.toDate().datePart('min')) + round((toNumber(value.toDate().datePart('s')))*0.01666666667)) + ' minutes'",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column internal_note-5:internal_note_value using expression grel:'Year digitized: ' + value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "internal_note-5:internal_note_value",
+    "expression": "grel:'Year digitized: ' + value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column _project.string_key using expression grel:'TBM'",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_project.string_key",
+    "expression": "grel:'TBM'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type at index 41 based on column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title using expression grel:value.replace(/.+/,'series')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_title",
+    "expression": "grel:value.replace(/.+/,'series')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level at index 42 based on column collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type using expression grel:value.replace(/.+/,'1')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_level",
+    "columnInsertIndex": 1,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-1:collection_archival_series_part_type",
+    "expression": "grel:value.replace(/.+/,'1')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title using expression grel:if(value == 'No Subseries',null,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title",
+    "expression": "grel:if(value == 'No Subseries',null,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_type at index 44 based on column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title using expression grel:value.replace(/.+/,'subseries')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_type",
+    "columnInsertIndex": 1,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_title",
+    "expression": "grel:value.replace(/.+/,'subseries')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_level at index 45 based on column collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_type using expression grel:value.replace(/.+/,'2')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_level",
+    "columnInsertIndex": 1,
+    "baseColumnName": "collection-1:collection_archival_series-1:collection_archival_series_part-2:collection_archival_series_part_type",
+    "expression": "grel:value.replace(/.+/,'2')",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column name-1:name_term.value using expression grel:if(isNotNull(cells['creator_2'].value), value + ';' + cells['creator_2'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name-1:name_term.value",
+    "expression": "grel:if(isNotNull(cells['creator_2'].value), value + ';' + cells['creator_2'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column creator_1_id using expression grel:if(isNotNull(cells['creator_2_id'].value), value + ';' + cells['creator_2_id'].value,value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "creator_1_id",
+    "expression": "grel:if(isNotNull(cells['creator_2_id'].value), value + ';' + cells['creator_2_id'].value,value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column creator_2",
+    "columnName": "creator_2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column creator_2_id",
+    "columnName": "creator_2_id"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-2:note_value using expression grel:value.replace(/^\\(/,'')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "note-2:note_value",
+    "expression": "grel:value.replace(/^\\(/,'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column note-2:note_value using expression grel:value.replace(/\\)$/,'')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "note-2:note_value",
+    "expression": "grel:value.replace(/\\)$/,'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column form-1:form_term.value using expression grel:toLowercase(value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "form-1:form_term.value",
+    "expression": "grel:toLowercase(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column digital_origin-1:digital_origin_value at index 2 based on column collection-1:collection_term.value using expression grel:'reformatted digital'",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "digital_origin-1:digital_origin_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "collection-1:collection_term.value",
+    "expression": "grel:'reformatted digital'",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column _digital_object_type.string_key at index 2 based on column collection-1:collection_term.value using expression grel:'item'",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "_digital_object_type.string_key",
+    "columnInsertIndex": 1,
+    "baseColumnName": "collection-1:collection_term.value",
+    "expression": "grel:'item'",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name-1:name_usage_primary at index 52 based on column name-1:name_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name-1:name_usage_primary",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_topic-1:subject_topic_term.value at index 53 based on column name-1:name_usage_primary using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_topic-1:subject_topic_term.value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "name-1:name_usage_primary",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_geographic-1:subject_geographic_term.value at index 54 based on column subject_topic-1:subject_topic_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_geographic-1:subject_geographic_term.value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "subject_topic-1:subject_topic_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_name-1:subject_name_term.value at index 54 based on column subject_topic-1:subject_topic_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_name-1:subject_name_term.value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "subject_topic-1:subject_topic_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column subject_title-1:subject_title_term.value at index 56 based on column subject_geographic-1:subject_geographic_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "subject_title-1:subject_title_term.value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "subject_geographic-1:subject_geographic_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column type_of_resource-1:type_of_resource_value at index 57 based on column subject_title-1:subject_title_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "type_of_resource-1:type_of_resource_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "subject_title-1:subject_title_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column genre-1:genre_term.value at index 58 based on column type_of_resource-1:type_of_resource_value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "genre-1:genre_term.value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "type_of_resource-1:type_of_resource_value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column place_of_origin-1:place_of_origin_value at index 59 based on column genre-1:genre_term.value using expression grel:null",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "place_of_origin-1:place_of_origin_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "genre-1:genre_term.value",
+    "expression": "grel:null",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column publisher-1:publisher_value at index 60 based on column place_of_origin-1:place_of_origin_value using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "publisher-1:publisher_value",
+    "columnInsertIndex": 1,
+    "baseColumnName": "place_of_origin-1:place_of_origin_value",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  }
+]
